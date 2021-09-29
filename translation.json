@@ -1,7 +1,7 @@
 {
     "widgets": {
         "menu": {
-            "pushInBar": {
+            "pushIn": {
                 "actions": {
                     "back": "Back",
                     "exit": "Exit",
