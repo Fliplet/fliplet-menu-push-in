@@ -1,13 +1,13 @@
 {
-    "widgets": {
-        "menu": {
-            "pushIn": {
-                "actions": {
-                    "back": "Back",
-                    "exit": "Exit",
-                    "about": "About this app"
-                }
-            }
+  "widgets": {
+    "menu": {
+      "pushIn": {
+        "actions": {
+          "back": "Back",
+          "exit": "Exit",
+          "about": "About this app"
         }
+      }
     }
+  }
 }
