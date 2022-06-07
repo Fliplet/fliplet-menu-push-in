@@ -1,8 +1,6 @@
 var $menuElement = $('[data-name="Push in"]');
 var menuInstanceId = $menuElement.data('id');
 
-$($menuElement).translate();
-
 if (menuInstanceId) {
   init();
 }
@@ -106,3 +104,7 @@ function init() {
     }
   });
 }
+
+Fliplet().then(function() {
+  $menuElement.translate();
+});
