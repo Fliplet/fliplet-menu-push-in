@@ -188,7 +188,7 @@ body.has-menu-left.has-push-menu .fl-viewport-header {
 }
 /* Menu Overlay */
 .fl-menu {
-  position: fixed;
+  position: absolute;
   top: 0;
   top: constant(safe-area-inset-top);
   top: env(safe-area-inset-top);
@@ -245,7 +245,7 @@ body.has-menu-left.has-push-menu .fl-viewport-header {
   right: 0;
   -webkit-transform: translate3d(100%, 0, 0);
   transform: translate3d(100%, 0, 0);
-  box-shadow: -4px 0 5px rgba(0,0,0,0.2);
+  box-shadow: -4px 0 5px rgba(0, 0, 0, 0.2);
 }
 
 .fl-menu-push-in-left .fl-menu-panel {
@@ -253,7 +253,7 @@ body.has-menu-left.has-push-menu .fl-viewport-header {
   left: 0;
   -webkit-transform: translate3d(-100%, 0, 0);
   transform: translate3d(-100%, 0, 0);
-  box-shadow: 4px 0 5px rgba(0,0,0,0.2);
+  box-shadow: 4px 0 5px rgba(0, 0, 0, 0.2);
 }
 
 .fl-menu-push-in-left .fl-close-menu {
@@ -296,7 +296,7 @@ body.has-menu-left.has-push-menu .fl-viewport-header {
 }
 
 [data-simulator="iphone-x"] .fl-app-menu-toolbar {
-    padding-bottom: 34px;
+  padding-bottom: 34px;
 }
 
 .fl-app-menu-toolbar .copyright {
